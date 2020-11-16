@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F0F1F2 !important;
+}
+
+#menu {
+    width: 35px;
+    height: 35px;
+}
+
+.titles {
+    color: #313640;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+.table {
+    width: 800px !important;
+    background-color: #313640;
+    position: fixed;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table thead tr th {
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+
+}
+
+.actions {
+    position: fixed;
+    bottom: 15%;
+    margin-left: 10%;
+    width: 150px;
+    height: 40px;
+    background: #8DCBF2;
+    border: 1px solid #72bae8;
+    box-sizing: border-box;
+    border-radius: 20px;
+}

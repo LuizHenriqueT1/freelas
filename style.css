@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F0F1F2 !important;
+}
+
+#menu {
+    width: 35px;
+    height: 35px;
+}
+
+.content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#welcome {
+    color: #313640;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 24px;
+}
+
+#info {
+    color: #4F5259;
+    font-size: 16px;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;   
+    justify-content: center; 
+}
+
+.actions {
+    margin: 0px 45px 0px 45px;
+    width: 150px;
+    height: 40px;
+    background: #8DCBF2;
+    border: 1px solid #72bae8;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
