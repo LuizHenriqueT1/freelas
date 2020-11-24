@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: #F0F1F2 !important;
+    height: 100vh;
 }
 
 #menu {
@@ -8,27 +9,33 @@ body {
     height: 35px;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
 .titles {
     color: #313640;
     font-family: 'Roboto Mono', monospace;
     font-size: 24px;
     margin-left: 10%;
+    width: 100%;
 }
 
 .table {
     width: 800px !important;
-    background-color: #313640;
-    position: fixed;
-    top: 22%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+.table thead {
+    background-color: #000;
 }
 
 .table thead tr th {
     color: #fff;
     border: 1px solid #fff;
     text-align: center;
-
 }
 
 .actions {
@@ -41,4 +48,26 @@ body {
     border: 1px solid #72bae8;
     box-sizing: border-box;
     border-radius: 20px;
+}
+
+#jobs tr {
+    background: #fff;
+}
+
+#jobs tr button.btn-update {
+    background-image:  url("../../assets/img/lapis.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border: 0;
+}
+
+#jobs tr button.btn-delete {
+    background-image:  url("../../assets/img/deletar-lixeira.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+    border: 0;
 }
